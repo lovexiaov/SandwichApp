@@ -1,0 +1,10 @@
+#!/Users/lovexiaov/tmp/SandwichApp/venv/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'py2app==0.10','console_scripts','py2applet'
+__requires__ = 'py2app==0.10'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('py2app==0.10', 'console_scripts', 'py2applet')()
+    )
